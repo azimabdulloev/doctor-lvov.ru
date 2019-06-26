@@ -1,0 +1,321 @@
+/*
+Theme Name: Kineziology (brown)
+Theme URI:  www.doctor-lvov.ru
+Description:  Тема сделана для сайта www.doctor-lvov.ru
+Version: 1.0
+Author: Azeem Abdulloev
+*/
+
+body {
+	margin: 0px;
+}
+
+#skit{
+	float: left;
+	width: 190px;
+	margin-top: 60px;
+	margin-right: 10px;
+}
+
+#skit-head{
+	padding-left: 10px;
+	color: #4b2900;
+	font-weight: bold;
+}
+
+#skit-links{
+    padding: 0px 15px;
+}
+
+.boldlinks{
+	padding-bottom: 60px;
+	color:#002233;
+	font-family:sans-serif;
+	font-size:14px;
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:22px;
+}
+
+.boldlinks a:hover{
+	color: #ffffff;
+}
+
+.boldlinks a:visited{
+	color:#002233;
+}
+
+.boldlinks a:visited:hover{
+	color: #ffffff;
+}
+
+
+.pic_table {
+	text-align: center;
+}
+
+.pic_table td{
+	padding-bottom: 60px;
+}
+
+.pic_table div{
+	text-align: justify;
+	color:#002233;
+	font-family:sans-serif;
+	font-size:14px;
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:22px;
+}
+
+#wrapper{
+			width: 100%;
+			height: 100%;
+			background: url('images/xy_tex.png');
+		}
+
+#head_x_tex{
+			background: url('images/head_x_tex.png');
+			background-position: left top;
+			background-repeat: repeat-x;
+		}
+		
+#head{
+		width: 100%;
+		background: url('images/head.png');
+		background-position: center top ;
+		background-repeat: no-repeat;
+	}
+		
+#header{
+			width: 960px;
+			height: 120px;
+		}
+		
+#epigraph {
+				width: 310px;
+				height: 50px;
+				margin-left: 640px;
+				margin-top: 12px;
+				
+				text-align: center;
+				font-family: 'Times New Roman', Times, serif;
+				font-size: 18px;
+				font-weight: none;
+				color: #5b3900;
+		}
+		
+#main_y_tex{
+			width: 100%;
+			height: 100%;
+			background: url('images/main_y_tex.jpg');
+			background-position: center top;
+			background-repeat: repeat-y;
+		}
+		
+#main_center{
+			height: 100%;
+			min-width: 960px;
+			background: url('images/main.jpg'); 
+			background-position: center top;
+			background-repeat:  no-repeat;
+	}
+		
+#content{
+			width: 960px;	
+			height: 100%;
+		}
+		
+#sidebar {
+			width: 200px;
+			float: left;
+			margin-top: 25px;
+			margin-left: 5px;
+			padding: 0;
+		}
+
+#main_wrapper{
+			width: 720px;
+			margin-top: 25px;
+			float: left;
+			padding: 10px;
+			display: inline;
+}
+		
+#main{
+			position:relative;
+		}
+		
+ul {
+	margin: 0px;
+	}
+
+p{
+	margin: 10px 0;
+ }
+ 
+HR {
+	 margin: 5px;
+     border: none;
+	 color: #4b2900;
+     background-color: #4b2900;
+	 
+     height: 2px;
+    }
+
+#sidebar li, #extras li {
+line-height:1.6em;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0pt 0pt 6px;
+}
+
+#menu ul {
+	margin:5px;
+	padding: 0;
+}
+
+.page_item{
+	background: url('images/menu_item_brown.gif') no-repeat;
+	float: left;
+}
+
+.page_item_light{
+background: url('images/menu_item_brown_light.gif') no-repeat;
+	float: left;
+}
+
+#menu ul li ul li {
+	margin-left: 10px;
+}
+
+#menu li:hover {
+	background: url('images/menu_item_brown_light.gif') no-repeat;
+	float: left;
+}
+
+#menu a {
+	width: 160px;
+	float: left;
+	padding:5px 1px 5px 30px;
+	text-decoration: none;
+	
+	font-family: serif;
+	font-size: 100%;
+	font-weight: bold;
+	color: #4b2900;
+}
+
+#menu a:hover {
+	color: #fff;
+}
+
+.storytitle {
+	margin: 0px;
+	font-family: serif;
+	color: #553200;
+	font-size: 1.2em;
+}
+
+.articles_title {
+	font-family:sans-serif;
+	text-align: center;
+	color: #002233;
+	font-size: 16px;
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height: 22px;
+}
+
+.storycontent {
+	margin: 10px;
+	color: #002233;
+	font-family:sans-serif;
+	font-size: 14px;
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height: 22px;
+}
+
+.storycontent table p{
+	color: #002233;
+	font-family:sans-serif;
+	font-size: 14px;
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height: 22px;
+}
+
+.storycontent h3 {
+	margin: 10px 0px;
+	font-size: 1.4em;
+}
+
+.storycontent p {
+	margin: 0px;
+}
+
+.storycontent ul {
+	margin: 5px 0px;
+	padding: 0px 45px;
+}
+
+.storycontent img {
+	border: none;
+	padding: 0 10px;
+}
+
+/* Captions & aligment */
+.aligncenter,
+div.aligncenter {
+	display: block;
+	text-align: center;
+	margin:auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 0px 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0px;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+	color: #4b2900;
+}
+/* End captions & aligment */
+
